@@ -1,0 +1,113 @@
+#bgVideo {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.content{
+  z-index: 1;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-clip: ;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5c9a4ed2  !important;
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+}
+
+.logo-img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #e0e0e0;
+  flex-wrap: wrap;
+}
+
+#searchInput {
+  flex-grow: 1;
+  padding: 8px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.crop-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+}
+
+.crop-item {
+  background: white;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.crop-item:hover {
+  background: #e8f5e9;
+}
+
+.crop-detail {
+  padding: 30px 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  line-height: 1.6;
+}
+
+.crop-detail h2 {
+  color: #2e7d32;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.crop-detail h4 {
+  font-size: 16px;
+  margin-top: 16px;
+  color: #444;
+}
+
+.download-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #388e3c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,1025 @@
+{
+  "crops": [
+    {
+      "Crop Name": "Rice",
+      "Category": "Cereal",
+      "Best Growing Season": [
+        "Kharif (Monsoon)",
+        "Rabi (Winter)"
+      ],
+      "Suitable States/Regions": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Karnataka"
+      ],
+      "Soil Type and pH": "Clay loam or silty loam, pH 5.5-7.5",
+      "Climate": "Tropical, temperature 20-37°C, high humidity, annual rainfall 100-200 cm",
+      "Recommended Seed Varieties": [
+        "IR64",
+        "Swarna (MTU 7029)",
+        "Pusa Basmati 1"
+      ],
+      "Seed Rate": "20-25 kg/ha (transplanted)",
+      "Irrigation Schedule and Method": "Continuous flooding for puddled transplanting; maintain 5-7 cm standing water initially, then alternate wetting and drying; about 5-6 irrigations in Kharif",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 100,
+          "P2O5": 50,
+          "K2O": 50
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 40,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Plow and puddle field, level; sow seedlings in raised nursery, transplant 25-30 day old seedlings at 20x20 cm spacing; keep flooded for 2-3 weeks then manage water levels",
+      "Weed and Pest Management": [
+        "Weeds: Echinochloa (barnyard grass) - use pre-emergence herbicide or hand weeding",
+        "Pests: Rice stem borer, brown planthopper - use resistant varieties and appropriate insecticides"
+      ],
+      "Harvesting Time and Technique": "Harvest at 75-80% maturity (grains hard, ~18-20% moisture); cut with sickle or combine; thresh by beating or machine",
+      "Post-Harvest Practices": "Sun-dry grains to ~12-14% moisture; winnow and store in airtight containers or bags in cool dry place"
+    },
+    {
+      "Crop Name": "Wheat",
+      "Category": "Cereal",
+      "Best Growing Season": "Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Bihar"
+      ],
+      "Soil Type and pH": "Loamy soil, well-drained, pH 6.0-7.5",
+      "Climate": "Cool climate, temperature 10-25°C (optimum ~20°C), rainfall 30-75 cm during crop",
+      "Recommended Seed Varieties": [
+        "PBW 343",
+        "HD 2967",
+        "WH 1105"
+      ],
+      "Seed Rate": "100-125 kg/ha",
+      "Irrigation Schedule and Method": "4-5 irrigations (first at crown root initiation, then tillering, booting, dough stage); use flood or sprinkler irrigation as available",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 60,
+          "P2O5": 40,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 60,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Prepare fine tilth; sow seeds by drilling or broadcasting in November at 3-5 cm depth; row spacing ~20 cm",
+      "Weed and Pest Management": [
+        "Weeds: Phalaris minor (use herbicide like isoproturon)",
+        "Pests: Aphids, armyworm (monitor and spray recommended insecticides)"
+      ],
+      "Harvesting Time and Technique": "Harvest at full maturity (grain moisture ~20%); cut with sickle or combine; dry and thresh",
+      "Post-Harvest Practices": "Dry grains to <12% moisture; clean and store in cool, dry place (air-tight bins or sacks with fumigation if needed)"
+    },
+    {
+      "Crop Name": "Maize",
+      "Category": "Cereal",
+      "Best Growing Season": [
+        "Kharif (Monsoon)",
+        "Rabi (Winter)"
+      ],
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Bihar",
+        "Uttar Pradesh",
+        "Rajasthan"
+      ],
+      "Soil Type and pH": "Loamy to sandy loam, well-drained, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 20-30°C (optimum ~27°C), rainfall 50-100 cm",
+      "Recommended Seed Varieties": [
+        "HQPM 5D",
+        "DKC 9128",
+        "Bio-9681"
+      ],
+      "Seed Rate": "20-25 kg/ha (for 60 cm x 20-25 cm spacing)",
+      "Irrigation Schedule and Method": "Irrigate every 7-10 days during vegetative growth and flowering (6-8 irrigations total); furrow or flood method",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 80,
+          "P2O5": 60,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 70,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Prepare well-tilled seedbed; sow seeds 3-5 cm deep at 2-3 seeds per hill, 60 cm row spacing",
+      "Weed and Pest Management": [
+        "Weeds: Broadleaf and grass weeds (use pre-emergence atrazine or manual weeding)",
+        "Pests: Stem borer, fall armyworm (monitor and apply biocontrol or insecticides)"
+      ],
+      "Harvesting Time and Technique": "Harvest when cobs mature (grain hard and husk dry); hand-pick or use combine; remove husk and dry cobs",
+      "Post-Harvest Practices": "Dry kernels to ~12% moisture; shell or thresh cobs; store kernels in dry, sealed bins or bags"
+    },
+    {
+      "Crop Name": "Sorghum (Jowar)",
+      "Category": "Millet",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Andhra Pradesh",
+        "Gujarat"
+      ],
+      "Soil Type and pH": "Well-drained loam to clay loam, pH 6.0-7.0",
+      "Climate": "Hot and dry, temperature 25-35°C (tolerates >40°C), low rainfall (50-75 cm)",
+      "Recommended Seed Varieties": [
+        "Maldandi",
+        "CSV 15",
+        "CSH 16"
+      ],
+      "Seed Rate": "10-12 kg/ha",
+      "Irrigation Schedule and Method": "Drought-tolerant; one or two irrigations if needed at flowering; usually rainfed",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 40,
+          "P2O5": 20,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 20,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Plough field; sow seeds 2-3 cm deep by broadcasting or drilling; thin to spacing 45-60 cm between rows",
+      "Weed and Pest Management": [
+        "Weeds: Parthenium, Cyperus (hand weed early)",
+        "Pests: Shoot fly, stem borer (use resistant varieties, timely insecticide)"
+      ],
+      "Harvesting Time and Technique": "Harvest when grains hard and plant turns brown (~3 months); cut heads and sun-dry; thresh to remove grains",
+      "Post-Harvest Practices": "Sun-dry grains to safe moisture (~12%); winnow and store in sacks or bins"
+    },
+    {
+      "Crop Name": "Pearl Millet (Bajra)",
+      "Category": "Millet",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Rajasthan",
+        "Gujarat",
+        "Haryana",
+        "Uttar Pradesh",
+        "Madhya Pradesh"
+      ],
+      "Soil Type and pH": "Light soils to sandy loam, pH 6.0-7.5",
+      "Climate": "Extremely hot, temperature 30-35°C, very drought-tolerant, rainfall 35-75 cm",
+      "Recommended Seed Varieties": [
+        "HHB 67 Improved",
+        "RHB 121",
+        "GHB 538"
+      ],
+      "Seed Rate": "5-6 kg/ha",
+      "Irrigation Schedule and Method": "Rainfed; one light irrigation at flowering if dry",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 60,
+          "P2O5": 20,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 20,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Plough and harrow; sow seeds 2-3 cm deep in pits or lines; spacing ~45-60 cm between rows",
+      "Weed and Pest Management": [
+        "Weeds: Broadleaf weeds (use atrazine or hand weeding early)",
+        "Pests: Earhead grasshopper (dust insecticides)"
+      ],
+      "Harvesting Time and Technique": "Harvest at physiological maturity (~70 days after sowing), when grains hard and plant dries; cut or pull plants and dry; thresh to collect grains",
+      "Post-Harvest Practices": "Dry grains to <12% moisture; clean and store in protected granaries or sacks"
+    },
+    {
+      "Crop Name": "Finger Millet (Ragi)",
+      "Category": "Millet",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "Soil Type and pH": "Loamy soil, high organic matter; tolerates slightly acidic",
+      "Climate": "Cool-temperate to subtropical, temperature 20-30°C, moderate rainfall 60-90 cm",
+      "Recommended Seed Varieties": [
+        "GPU 28",
+        "VL 348",
+        "CO 9"
+      ],
+      "Seed Rate": "10-12 kg/ha",
+      "Irrigation Schedule and Method": "Usually rainfed; one irrigation at booting stage if dry",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 40,
+          "P2O5": 40,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 20,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Prepare fine tilth; sow seeds 1-2 cm deep in lines; thin to achieve 10-15 cm plant spacing",
+      "Weed and Pest Management": [
+        "Weeds: competes with nutgrass (remove manually early)",
+        "Pests: Aphids, blast disease (use resistant varieties and fungicide spray)"
+      ],
+      "Harvesting Time and Technique": "Harvest when earheads and leaves turn reddish brown (90-100 days); cut and dry; separate grains by beating or threshing",
+      "Post-Harvest Practices": "Dry grains to low moisture; store in airtight containers to prevent pests"
+    },
+    {
+      "Crop Name": "Chickpea (Gram)",
+      "Category": "Pulse",
+      "Best Growing Season": "Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Bihar"
+      ],
+      "Soil Type and pH": "Loamy to black soil, pH 7.0-8.0",
+      "Climate": "Cool season crop, temperature 15-25°C (optimum ~20°C), rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "JAKI 9218",
+        "BG 256",
+        "Sonalika (ICCV 2)"
+      ],
+      "Seed Rate": "80-100 kg/ha",
+      "Irrigation Schedule and Method": "Usually rainfed; one irrigation at flowering and pod development if moisture is low",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 60,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 20
+        }
+      },
+      "Cultivation Method": "Plough and level; sow seeds 5-7 cm deep by drilling in rows (30 cm apart) in November-December",
+      "Weed and Pest Management": [
+        "Weeds: Phalaris minor (apply Pendimethalin or metribuzin pre-emergence)",
+        "Pests: Pod borer (Helicoverpa) - use pheromone traps or insecticide at flowering/podding"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods mature and leaves turn yellow (85-100 days); pull plants and dry in sun; thresh by beating",
+      "Post-Harvest Practices": "Sun-dry grains to safe moisture; store in cool dry place (use airtight containers to protect from weevils)"
+    },
+    {
+      "Crop Name": "Pigeon Pea (Arhar)",
+      "Category": "Pulse",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Karnataka",
+        "Bihar"
+      ],
+      "Soil Type and pH": "Deep well-drained loam to black cotton soil, pH 6.0-8.0",
+      "Climate": "Tropical climate, temperature 25-35°C (optimum ~30°C), rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "Bahar (Laxmi)",
+        "Maruti",
+        "UPAS 120"
+      ],
+      "Seed Rate": "12-16 kg/ha (depending on spacing)",
+      "Irrigation Schedule and Method": "Rainfed; 2-3 supplementary irrigations (flowering, pod formation) if needed",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 40,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 20
+        }
+      },
+      "Cultivation Method": "Deep ploughing; sow seeds 5-7 cm deep in rows (45-60 cm spacing) at onset of monsoon (June-July)",
+      "Weed and Pest Management": [
+        "Weeds: Parthenium, Cyperus (control by early hoeing/weeding)",
+        "Pests: Pod borer (Helicoverpa), pod fly - use insecticidal sprays or bio-pesticides at flowering"
+      ],
+      "Harvesting Time and Technique": "Harvest pods sequentially as they mature (6-9 months after sowing) or all at once; sun-dry picked pods then thresh",
+      "Post-Harvest Practices": "Sun-dry grains thoroughly; store in airtight containers to avoid storage pests"
+    },
+    {
+      "Crop Name": "Green Gram (Mung)",
+      "Category": "Pulse",
+      "Best Growing Season": [
+        "Kharif (Monsoon)",
+        "Summer (Feb-May)"
+      ],
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Karnataka",
+        "Gujarat"
+      ],
+      "Soil Type and pH": "Loamy to sandy loam, well-drained, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 25-35°C (optimum ~30°C), rainfall 50-100 cm",
+      "Recommended Seed Varieties": [
+        "ML 205",
+        "IPM 2-3",
+        "Samrat (GM 4)"
+      ],
+      "Seed Rate": "15-20 kg/ha",
+      "Irrigation Schedule and Method": "Usually rainfed; if sown in summer, irrigation at 10 days, 30 days, flowering and pod filling",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 50,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 20
+        }
+      },
+      "Cultivation Method": "Prepare fine tilth; sow seeds 2-3 cm deep in rows (30 cm spacing); can be intercropped with cereals",
+      "Weed and Pest Management": [
+        "Weeds: Broadleaf weeds like Parthenium (hoeing after 2 weeks)",
+        "Pests: Aphids, whitefly, jassids (spray neem or insecticide)"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods mature and start turning yellow (~65-70 days); pull plants and dry; thresh by beating",
+      "Post-Harvest Practices": "Dry seeds to safe moisture; store in cool dry storage to avoid pests"
+    },
+    {
+      "Crop Name": "Black Gram (Urd)",
+      "Category": "Pulse",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "Soil Type and pH": "Loamy to sandy loam, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 25-35°C, rainfall 60-100 cm",
+      "Recommended Seed Varieties": [
+        "PU 19",
+        "Pant Urd 31",
+        "CO 6"
+      ],
+      "Seed Rate": "20-25 kg/ha",
+      "Irrigation Schedule and Method": "Rainfed; 2-3 supplemental irrigations (flowering, pod filling) if dry",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 40,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 20
+        }
+      },
+      "Cultivation Method": "Plough and level; sow seeds 5 cm deep in rows (30-45 cm spacing) at start of monsoon",
+      "Weed and Pest Management": [
+        "Weeds: Nutgrass (Cyperus rotundus) (manual weeding early)",
+        "Pests: Yellow Mosaic Virus (vector whitefly) - use certified seeds, control whitefly"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods mature (leaves yellow, pods brown) (~75 days); pull plants and sun-dry; thresh carefully",
+      "Post-Harvest Practices": "Dry grains thoroughly; store in airtight containers to prevent weevil infestation"
+    },
+    {
+      "Crop Name": "Lentil (Masoor)",
+      "Category": "Pulse",
+      "Best Growing Season": "Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Uttarakhand",
+        "Madhya Pradesh",
+        "Bihar"
+      ],
+      "Soil Type and pH": "Light loamy, well-drained, pH 6.5-8.0",
+      "Climate": "Cool climate, temperature 15-25°C, rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "K 75",
+        "IPL 220",
+        "Pant L 406"
+      ],
+      "Seed Rate": "20-30 kg/ha",
+      "Irrigation Schedule and Method": "Rainfed; one irrigation at flowering and one at pod filling if soil moisture low",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 40,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 20
+        }
+      },
+      "Cultivation Method": "Plough and rake; sow seeds 2-3 cm deep in rows (20-30 cm spacing) in November",
+      "Weed and Pest Management": [
+        "Weeds: Broadleaf weeds (apply pendimethalin before sowing)",
+        "Pests: Stem fly (sow early, use resistant varieties)"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods mature (leaves yellow) (~75-90 days); cut plants or pull and dry; thresh by beating",
+      "Post-Harvest Practices": "Dry seeds to ~14% moisture; store in cool, dry place (airtight containers to avoid pests)"
+    },
+    {
+      "Crop Name": "Mustard (Rapeseed)",
+      "Category": "Oilseed",
+      "Best Growing Season": "Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh"
+      ],
+      "Soil Type and pH": "Loamy to clay loam, pH 6.5-7.5",
+      "Climate": "Cool climate, temperature 10-25°C, rainfall 40-70 cm",
+      "Recommended Seed Varieties": [
+        "Varuna",
+        "RH 30",
+        "Pusa Mustard 30"
+      ],
+      "Seed Rate": "5-6 kg/ha",
+      "Irrigation Schedule and Method": "2-3 irrigations (crown root initiation, flowering, pod development); require even moisture",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 60,
+          "P2O5": 60,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 30,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Fine tilth; sow seeds 1-2 cm deep, 30 cm spacing, in Oct-Nov",
+      "Weed and Pest Management": [
+        "Weeds: Canary grass (apply pendimethalin or isoproturon)",
+        "Pests: Aphids, painted bug (monitor and spray insecticide)"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods turn blackish brown (~90-100 days); cut and dry; thresh after drying",
+      "Post-Harvest Practices": "Dry seeds to ~9% moisture; store in gunny bags in cool, dry place"
+    },
+    {
+      "Crop Name": "Groundnut",
+      "Category": "Oilseed",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Gujarat",
+        "Rajasthan",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Tamil Nadu"
+      ],
+      "Soil Type and pH": "Sandy loam to sandy clay loam, well-drained, pH 6.5-7.5",
+      "Climate": "Warm climate, temperature 24-30°C, rainfall 50-75 cm (evenly distributed)",
+      "Recommended Seed Varieties": [
+        "JL 24",
+        "TMV 2",
+        "K 6"
+      ],
+      "Seed Rate": "100-125 kg/ha",
+      "Irrigation Schedule and Method": "Light irrigations during pegging and pod formation (3-4 total); avoid waterlogging",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 50,
+          "K2O": 25
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 0,
+          "P2O5": 0,
+          "K2O": 25
+        }
+      },
+      "Cultivation Method": "Plough deep; sow seeds 5-7 cm deep in rows (30-45 cm spacing) at onset of monsoon",
+      "Weed and Pest Management": [
+        "Weeds: Control by two hoeing/earthing-up",
+        "Pests: Leaf miner, root rot (Fusarium) (use resistant varieties and avoid waterlogging)"
+      ],
+      "Harvesting Time and Technique": "Harvest when leaves turn yellow (4-5 months); uproot plants, dry 3-5 days, then shake to remove pods",
+      "Post-Harvest Practices": "Sun-dry pods for 2-3 days; shell and further dry kernels; store in cool dry place"
+    },
+    {
+      "Crop Name": "Soybean",
+      "Category": "Oilseed",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Karnataka",
+        "Telangana"
+      ],
+      "Soil Type and pH": "Black cotton soil or loamy, well-drained, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 25-30°C, rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "JS 335",
+        "MAUS 71",
+        "PK 472"
+      ],
+      "Seed Rate": "80-100 kg/ha",
+      "Irrigation Schedule and Method": "One or two irrigations at flowering and pod-filling (3 total); generally rainfed",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 60,
+          "K2O": 25
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 20,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Fine tilth; sow seeds 3-5 cm deep in rows (45 cm spacing) during monsoon onset",
+      "Weed and Pest Management": [
+        "Weeds: Apply pendimethalin or weed manually",
+        "Pests: Pod borer (Helicoverpa), tan spot (apply appropriate fungicide)"
+      ],
+      "Harvesting Time and Technique": "Harvest when pods are brown and leaves drop (~100-120 days); uproot plants, thresh to release seeds",
+      "Post-Harvest Practices": "Dry seeds to safe moisture (<12%); store in airtight containers to avoid pests"
+    },
+    {
+      "Crop Name": "Sunflower",
+      "Category": "Oilseed",
+      "Best Growing Season": [
+        "Rabi (Winter)",
+        "Post-Monsoon"
+      ],
+      "Suitable States/Regions": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Rajasthan"
+      ],
+      "Soil Type and pH": "Well-drained sandy loam, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 22-28°C, rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "USHA",
+        "Morden",
+        "KBSH 53"
+      ],
+      "Seed Rate": "5-6 kg/ha",
+      "Irrigation Schedule and Method": "Irrigate at sowing, flowering and grain filling (2-3 irrigations); avoid waterlogging",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 60,
+          "P2O5": 60,
+          "K2O": 30
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 40,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Prepare seedbed; sow seeds 2-3 cm deep in rows (30 cm spacing) after monsoon rains",
+      "Weed and Pest Management": [
+        "Weeds: Control by one hoeing after emergence",
+        "Pests: Aphids, birds (use bird repellents, spray insecticide for aphids)"
+      ],
+      "Harvesting Time and Technique": "Harvest when back of head turns yellow and bracts dry (about 90-120 days); cut heads, dry and thresh to collect seeds",
+      "Post-Harvest Practices": "Dry seeds to moisture around 8-10%; store in moisture-proof containers"
+    },
+    {
+      "Crop Name": "Sesame (Til)",
+      "Category": "Oilseed",
+      "Best Growing Season": "Summer (Mar-June) and Kharif (July-August)",
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Andhra Pradesh",
+        "West Bengal"
+      ],
+      "Soil Type and pH": "Light sandy loam, well-drained, pH 6.0-7.5",
+      "Climate": "Hot climate, temperature 27-35°C, rainfall 50-100 cm",
+      "Recommended Seed Varieties": [
+        "NDK 173",
+        "RT 351",
+        "TGS 3"
+      ],
+      "Seed Rate": "4-5 kg/ha",
+      "Irrigation Schedule and Method": "Drought-tolerant; irrigate once at flowering if dry",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 20,
+          "P2O5": 40,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 10,
+          "P2O5": 0,
+          "K2O": 10
+        }
+      },
+      "Cultivation Method": "Prepare seedbed; sow seeds shallow (1-2 cm) in line (30 cm spacing), well before monsoon",
+      "Weed and Pest Management": [
+        "Weeds: Perennial weeds (hoeing after 2-3 weeks)",
+        "Pests: Blister beetle, bird damage (handpick beetles, netting against birds)"
+      ],
+      "Harvesting Time and Technique": "Harvest just before capsule bursts (~90 days); cut plants in bundle and dry in sun to allow capsules to open; thresh for seeds",
+      "Post-Harvest Practices": "Dry seeds fully; store in airtight containers to prevent moisture uptake"
+    },
+    {
+      "Crop Name": "Cotton",
+      "Category": "Fiber",
+      "Best Growing Season": "Kharif (Monsoon)",
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Punjab",
+        "Tamil Nadu"
+      ],
+      "Soil Type and pH": "Loamy black or alluvial soils, well-drained, pH 6.0-7.5",
+      "Climate": "Warm climate, temperature 25-35°C, rainfall 60-120 cm",
+      "Recommended Seed Varieties": [
+        "Bt cotton hybrids (e.g., HCH 174)",
+        "CIM-496"
+      ],
+      "Seed Rate": "20-25 kg/ha (for 1-2 plants per hill)",
+      "Irrigation Schedule and Method": "Irrigate at square, flowering and boll formation stages (4-6 irrigations); furrow or drip",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 50,
+          "P2O5": 25,
+          "K2O": 25
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 50,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Sow seeds 2-3 cm deep (2-3 seeds/hole) in June-July; thin to 2 plants per hole; spacing ~60 cm x 60 cm",
+      "Weed and Pest Management": [
+        "Weeds: Parthenium (hand weeding or herbicides)",
+        "Pests: Bollworm (use Bt varieties and Bt sprays), aphids (spray insecticide)"
+      ],
+      "Harvesting Time and Technique": "Hand-pick open bolls from Oct-Nov; collect 2-3 pickings at weekly intervals",
+      "Post-Harvest Practices": "Ginn cotton to separate lint and seeds; lint can be baled and stored in dry conditions"
+    },
+    {
+      "Crop Name": "Sugarcane",
+      "Category": "Cash Crop (Sugar)",
+      "Best Growing Season": [
+        "Spring (Feb-Apr planting)",
+        "Autumn (Sep-Oct planting)"
+      ],
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Bihar"
+      ],
+      "Soil Type and pH": "Loamy to clay loam, rich in organic matter, pH 6.0-7.5",
+      "Climate": "Tropical climate, temperature 20-32°C, rainfall 75-150 cm (evenly distributed), frost-free",
+      "Recommended Seed Varieties": [
+        "Co 86032",
+        "Co 86010",
+        "BO 91"
+      ],
+      "Seed Rate": "About 10,000-12,000 kg/ha of setts (depends on sett size and row spacing)",
+      "Irrigation Schedule and Method": "High moisture requirement; 8-10 irrigations (micro sprinkler or flood) at 7-10 day intervals",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 200,
+          "P2O5": 60,
+          "K2O": 60
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 100,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Well-puddled field; plant 2-budded setts (2-3 inch length) 10-15 cm deep in furrows (60 cm spacing) in Feb-March or Oct-Nov",
+      "Weed and Pest Management": [
+        "Weeds: Nut grass (earth up to suppress)",
+        "Pests: Sugarcane borer, top borer (use chlorpyrifos or triazophos)"
+      ],
+      "Harvesting Time and Technique": "Harvest after 10-14 months (when sugar content peaks); cut stalks at ground level manually or mechanically",
+      "Post-Harvest Practices": "Transport to mills quickly; store under shade if needed, avoid dehydration of stalks"
+    },
+    {
+      "Crop Name": "Potato",
+      "Category": "Vegetable (Tuber)",
+      "Best Growing Season": "Rabi (Winter) in plains",
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Punjab",
+        "Haryana"
+      ],
+      "Soil Type and pH": "Light loam to sandy loam, loose and well-drained, pH 5.5-6.5",
+      "Climate": "Cool climate, temperature 16-18°C during tuberization, moderate rainfall (~50 cm)",
+      "Recommended Seed Varieties": [
+        "Kufri Jyoti",
+        "Kufri Chipsona-3",
+        "Kufri Sindhuri"
+      ],
+      "Seed Rate": "2,000-2,500 kg/ha of tubers (cut into 2-3 pieces each)",
+      "Irrigation Schedule and Method": "Frequent light irrigations (drip or furrow) to maintain soil moisture, especially during tuber formation (6-8 irrigations)",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 150,
+          "P2O5": 100,
+          "K2O": 100
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 50,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Ridge sowing; plant tuber pieces (eyes up) 7-10 cm deep at 20-25 cm distance on ridges (rows 60-75 cm apart) in Oct-Nov",
+      "Weed and Pest Management": [
+        "Weeds: Manual weeding or plastic mulch",
+        "Pests: Potato tuber moth, aphids (use pheromone traps or insecticides)"
+      ],
+      "Harvesting Time and Technique": "Harvest when haulm yellows and tubers reach desired size (75-90 days for early varieties); lift tubers gently with spade or machine",
+      "Post-Harvest Practices": "Cure tubers 1-2 weeks at ~12-15°C to toughen skin; store at 4-6°C in ventilated, humid storage"
+    },
+    {
+      "Crop Name": "Tomato",
+      "Category": "Vegetable",
+      "Best Growing Season": [
+        "Rabi (Winter)",
+        "Kharif (Monsoon, in south)"
+      ],
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "West Bengal",
+        "Karnataka"
+      ],
+      "Soil Type and pH": "Loamy or sandy loam, rich in organic matter, pH 6.0-7.0",
+      "Climate": "Warm temperate climate, temperature 20-27°C (night ~15°C) for fruiting, rainfall 60-100 cm",
+      "Recommended Seed Varieties": [
+        "Pusa Ruby",
+        "Arka Rakshak",
+        "CO-3"
+      ],
+      "Seed Rate": "Seeds: 200-250 g/ha (if direct sown); Transplant seedlings: ~3,000-4,000 seedlings/ha",
+      "Irrigation Schedule and Method": "Regular irrigation (drip or furrow) to maintain even moisture; water every 2-3 days initially, then 5-7 days once flowering",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 100,
+          "P2O5": 60,
+          "K2O": 60
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 50,
+          "P2O5": 0,
+          "K2O": 50
+        }
+      },
+      "Cultivation Method": "Raise nursery; transplant 4-5 week old seedlings at 45-60 cm x 45-60 cm spacing; prune and stake plants if needed",
+      "Weed and Pest Management": [
+        "Weeds: Hand weeding or mulch",
+        "Pests: Fruit borer, blight (use pheromone traps and fungicides as needed)"
+      ],
+      "Harvesting Time and Technique": "Harvest fruits at mature green or pink stage (60-80 days from transplant); hand-pick or cut from plant to avoid damage",
+      "Post-Harvest Practices": "Cool storage (12-15°C) to prolong shelf life; sort and pack to avoid bruising"
+    },
+    {
+      "Crop Name": "Onion",
+      "Category": "Vegetable",
+      "Best Growing Season": [
+        "Rabi (Winter, north)",
+        "Kharif (Monsoon, south)"
+      ],
+      "Suitable States/Regions": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Karnataka",
+        "Uttar Pradesh",
+        "Gujarat"
+      ],
+      "Soil Type and pH": "Light loam to sandy loam, well-drained, pH 6.5-7.5",
+      "Climate": "Cool nights (8-15°C) and warm days (20-25°C) for bulb formation, rainfall 50-75 cm",
+      "Recommended Seed Varieties": [
+        "NHRDF Red",
+        "Agri Found Light Red",
+        "Arka Niketan"
+      ],
+      "Seed Rate": "1.0-1.5 kg/ha (for nursery bed) or 2500-3000 bulbs/ha (for bulb sets)",
+      "Irrigation Schedule and Method": "Frequent irrigation; every 3-5 days initially, then 7-10 days (total 8-10 irrigations); drip or flood",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 100,
+          "P2O5": 100,
+          "K2O": 50
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 50,
+          "P2O5": 0,
+          "K2O": 50
+        }
+      },
+      "Cultivation Method": "Prepare fine seedbed; sow seeds in nursery, transplant seedlings at 10-15 cm spacing (rows 15-20 cm) in Oct-Nov, or plant bulb sets",
+      "Weed and Pest Management": [
+        "Weeds: Control by regular hoeing (avoid soil crusting)",
+        "Pests: Thrips, purple blotch (spray insecticide/fungicide at early signs)"
+      ],
+      "Harvesting Time and Technique": "Harvest when tops wilt and fall (~150-180 days for long-day varieties); lift bulbs and sun-dry",
+      "Post-Harvest Practices": "Cure bulbs 2-3 weeks in shade (80-85% humidity); store at 0-4°C (for small) or room temperature for large onions"
+    },
+    {
+      "Crop Name": "Chili (Capsicum)",
+      "Category": "Vegetable (Spice)",
+      "Best Growing Season": "Kharif (Monsoon) or Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "West Bengal",
+        "Gujarat"
+      ],
+      "Soil Type and pH": "Well-drained loamy soil, pH 6.0-7.0",
+      "Climate": "Warm to hot, temperature 20-30°C; frost-free, rainfall 50-100 cm",
+      "Recommended Seed Varieties": [
+        "Byadgi Dch-32",
+        "G4 (Guntur 4)",
+        "K1"
+      ],
+      "Seed Rate": "300-400 g/ha (if transplanted)",
+      "Irrigation Schedule and Method": "Irrigate every 7-10 days; frequent watering at flowering and fruiting via drip or furrow",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 100,
+          "P2O5": 50,
+          "K2O": 50
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 50,
+          "P2O5": 0,
+          "K2O": 50
+        }
+      },
+      "Cultivation Method": "Start nursery; transplant 8-10 week seedlings at 45-60 cm x 45-60 cm spacing in field",
+      "Weed and Pest Management": [
+        "Weeds: Nutsedge, grasses (mulch or hoeing)",
+        "Pests: Thrips (use yellow sticky traps), fruit borer (apply Bt or insecticide)"
+      ],
+      "Harvesting Time and Technique": "Harvest green or ripe fruits (depends on use) 60-100 days after transplant; pick by hand",
+      "Post-Harvest Practices": "Air-dry or sun-dry pods if spices; fresh chilies stored at 10-13°C and 85-90% RH"
+    },
+    {
+      "Crop Name": "Jute",
+      "Category": "Fiber",
+      "Best Growing Season": "Kharif (Summer)",
+      "Suitable States/Regions": [
+        "West Bengal",
+        "Bihar",
+        "Assam",
+        "Odisha"
+      ],
+      "Soil Type and pH": "Clayey loam, moist alluvial soil, pH 5.0-6.5",
+      "Climate": "Hot humid climate, temperature 25-35°C, rainfall 150-200 cm",
+      "Recommended Seed Varieties": [
+        "JRO 524",
+        "JRO 126",
+        "JRC 321"
+      ],
+      "Seed Rate": "5-6 kg/ha",
+      "Irrigation Schedule and Method": "Depends on monsoon; waterlogged conditions are favorable initially; no special irrigation",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 40,
+          "P2O5": 60,
+          "K2O": 40
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 20,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Plough deep; sow seeds 1-2 cm deep in lines (20-25 cm spacing) in June; thin to 10 cm after germination",
+      "Weed and Pest Management": [
+        "Weeds: Suppressed by rapid growth; remove competing weeds early",
+        "Pests: Hairy caterpillar (spray approved insecticide)"
+      ],
+      "Harvesting Time and Technique": "Harvest at flowering stage (~100 days); pull plants up, cut leaves, and rett in water 10-15 days",
+      "Post-Harvest Practices": "Fiber extracted by retting, wash and dry fibers; store bales in dry conditions"
+    },
+    {
+      "Crop Name": "Barley",
+      "Category": "Cereal",
+      "Best Growing Season": "Rabi (Winter)",
+      "Suitable States/Regions": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Himachal Pradesh",
+        "Rajasthan"
+      ],
+      "Soil Type and pH": "Loamy soil, well-drained, pH 6.0-7.5",
+      "Climate": "Cool climate, temperature 12-18°C (optimal), rainfall 30-50 cm",
+      "Recommended Seed Varieties": [
+        "RD 2701",
+        "RD 2849",
+        "PLW 16"
+      ],
+      "Seed Rate": "100-125 kg/ha",
+      "Irrigation Schedule and Method": "2-3 irrigations (at tillering and grain filling); first irrigation at crown root initiation",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 60,
+          "P2O5": 40,
+          "K2O": 20
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 40,
+          "P2O5": 0,
+          "K2O": 0
+        }
+      },
+      "Cultivation Method": "Plough and level; sow seeds 3-5 cm deep in Nov (same time as wheat), 20 cm row spacing",
+      "Weed and Pest Management": [
+        "Weeds: Goosegrass, Phalaris (herbicide or manual removal)",
+        "Pests: Aphids, armyworm (monitor and spray if needed)"
+      ],
+      "Harvesting Time and Technique": "Harvest at full maturity (~90-100 days) when grain is hard; cut or combine; dry and thresh",
+      "Post-Harvest Practices": "Dry grains to safe moisture; store in cool dry place (used as fodder or malt)"
+    },
+    {
+      "Crop Name": "Banana",
+      "Category": "Fruit",
+      "Best Growing Season": "Tropical (year-round)",
+      "Suitable States/Regions": [
+        "Andhra Pradesh",
+        "Telangana",
+        "Gujarat",
+        "Maharashtra",
+        "Tamil Nadu"
+      ],
+      "Soil Type and pH": "Deep, fertile sandy loam to clay loam, well-drained, pH 6.0-7.0",
+      "Climate": "Tropical, temperature 26-30°C, annual rainfall 100-150 cm",
+      "Recommended Seed Varieties": [
+        "Grand Naine",
+        "Robusta",
+        "Basrai (for north)"
+      ],
+      "Seed Rate": "1500-2000 suckers per ha",
+      "Irrigation Schedule and Method": "Frequent irrigation (every 2-3 days) as shallow roots; drip or basin irrigation; maintain high humidity",
+      "Fertilizer Plan": {
+        "Basal (kg/ha)": {
+          "N": 350,
+          "P2O5": 175,
+          "K2O": 450
+        },
+        "Top Dressing (kg/ha)": {
+          "N": 150,
+          "P2O5": 0,
+          "K2O": 200
+        }
+      },
+      "Cultivation Method": "Plant healthy suckers with 3-4 leaves at spacing 2.5-3.0 m; erect support if wind is high",
+      "Weed and Pest Management": [
+        "Weeds: Mulch with straw or grass",
+        "Pests: Nematodes, banana weevil (use healthy planting material and rotate)"
+      ],
+      "Harvesting Time and Technique": "Harvest when fruits are plump and green (8-10 months after planting); cut the whole bunch carefully",
+      "Post-Harvest Practices": "Ripen in shade (15-20°C, high humidity); store at 14-16°C (unripe) or at 18-20°C for market"
+    }
+  ]
+}
