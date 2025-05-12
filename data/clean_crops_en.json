@@ -1,0 +1,658 @@
+[
+  {
+    "Crop Name": "Rice",
+    "Category": "Cereal",
+    "Best Season": "Kharif (Monsoon), Rabi (Winter)",
+    "States": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "West Bengal",
+      "Bihar",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "Soil": "Clay loam or silty loam soil, pH 5.5–7.5",
+    "Climate": "Tropical climate with 20–37°C temperature and 100–200 cm rainfall",
+    "Seeds": [
+      "IR64",
+      "Swarna (MTU 7029)",
+      "Pusa Basmati 1"
+    ],
+    "Seed Rate": "20–25 kg/ha (transplanted)",
+    "Irrigation": "Keep the field flooded after transplanting, then alternate wetting and drying; about 5–6 irrigations in Kharif.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 100:50:50 at planting per hectare. Top dressing: 40 kg N later.",
+    "Pests & Weeds": "Watch for stem borer and brown planthopper. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest at 75–80% maturity (grains hard, ~18–20% moisture). Cut with sickle or combine.",
+    "Storage": "Sun-dry grains to ~12–14% moisture. Winnow and store in airtight containers or bags in a cool, dry place."
+  },
+  {
+    "Crop Name": "Wheat",
+    "Category": "Cereal",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Bihar"
+    ],
+    "Soil": "Loamy soil, well-drained, pH 6.0–7.5",
+    "Climate": "Cool climate with 10–25°C temperature and 30–75 cm rainfall",
+    "Seeds": [
+      "PBW 343",
+      "HD 2967",
+      "WH 1105"
+    ],
+    "Seed Rate": "100–125 kg/ha",
+    "Irrigation": "Give 4–5 irrigations: one after sowing, then at tillering, flowering and dough stages; use flood or sprinkler irrigation if available.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:40:20 at sowing per hectare, then top-dress 60 kg N later (split in 2 stages).",
+    "Pests & Weeds": "Watch for aphids and armyworm. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest at full maturity (~20% grain moisture). Cut with sickle or combine.",
+    "Storage": "Dry grains to <12% moisture. Clean and store in cool, dry, airtight storage (fumigate if needed)."
+  },
+  {
+    "Crop Name": "Maize",
+    "Category": "Cereal",
+    "Best Season": "Kharif (Monsoon) or Rabi (Winter, irrigated)",
+    "States": [
+      "Madhya Pradesh",
+      "Karnataka",
+      "Rajasthan",
+      "Andhra Pradesh",
+      "Uttar Pradesh"
+    ],
+    "Soil": "Deep, well-drained loamy soil, pH 6.0–7.5",
+    "Climate": "Warm climate with 20–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "HQPM 5",
+      "DKC 9128",
+      "MCC 3420"
+    ],
+    "Seed Rate": "20–25 kg/ha",
+    "Irrigation": "Irrigate soon after sowing and give 4–5 irrigations during crop; skip watering before harvest to dry cobs.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 80:60:40 at planting per hectare. Top dress 70 kg N later.",
+    "Pests & Weeds": "Watch for stem borers and fall armyworm. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when husks are dry and grains have ~20% moisture (60–90 days after sowing). Husks should turn brown.",
+    "Storage": "Dry cobs in sun; shell grains and store dry in airtight containers or jute bags."
+  },
+  {
+    "Crop Name": "Sorghum (Jowar)",
+    "Category": "Cereal",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Maharashtra",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "Soil": "Loamy or sandy soil, pH 6.5–7.5",
+    "Climate": "Warm climate with 25–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "CSV 15",
+      "M35-1",
+      "PYPS 2"
+    ],
+    "Seed Rate": "10–12 kg/ha",
+    "Irrigation": "Rabi mostly rainfed; in Kharif give 2–3 irrigations (after sowing and at flowering).",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:30:20 at planting per hectare. Top dress 40 kg N later.",
+    "Pests & Weeds": "Watch for shoot fly and stem borer. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest at full grain maturity (panicles dry and hard). Cut panicles and sun-dry to thresh grains.",
+    "Storage": "Dry grains to safe moisture and store in clean, insect-free bags or bins."
+  },
+  {
+    "Crop Name": "Pearl Millet (Bajra)",
+    "Category": "Cereal",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "Soil": "Sandy loam to loamy soil, pH 6.0–7.5",
+    "Climate": "Hot, dry climate with 30–35°C temperature and 20–50 cm rainfall",
+    "Seeds": [
+      "HHB 67",
+      "GHB 538",
+      "RHB 121"
+    ],
+    "Seed Rate": "5–6 kg/ha",
+    "Irrigation": "Usually rainfed; one irrigation at flowering if dry.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:30:20 at sowing per hectare.",
+    "Pests & Weeds": "Watch for earhead grasshopper and stem borer. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when grains are hard and panicles golden brown (around 70–80 days). Cut panicles and dry before threshing.",
+    "Storage": "Dry grains well to 12% moisture; store in airtight bags to prevent pests."
+  },
+  {
+    "Crop Name": "Finger Millet (Ragi)",
+    "Category": "Cereal",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Uttar Pradesh"
+    ],
+    "Soil": "Loamy to black soil, pH 6.0–7.5",
+    "Climate": "Warm, humid climate with 25–30°C temperature and 60–100 cm rainfall",
+    "Seeds": [
+      "GPU 28",
+      "PR 202",
+      "Indaf 5"
+    ],
+    "Seed Rate": "10–12 kg/ha",
+    "Irrigation": "Rainfed; give 1–2 light irrigations if needed at tillering.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:30:20 at sowing per hectare.",
+    "Pests & Weeds": "Watch for blast disease and aphids. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when earheads turn pale and grain is firm (around 90–100 days). Cut and sun-dry, then thresh to collect grains.",
+    "Storage": "Dry well to 12% moisture; store in jute or polythene bags in cool, dry place."
+  },
+  {
+    "Crop Name": "Chickpea (Gram)",
+    "Category": "Pulse",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "Soil": "Loamy to black soil, pH 7.0–8.0",
+    "Climate": "Cool climate with 15–25°C temperature and 50–75 cm rainfall",
+    "Seeds": [
+      "JG 11",
+      "KG 100",
+      "Local Kabuli varieties"
+    ],
+    "Seed Rate": "80–100 kg/ha",
+    "Irrigation": "Rainfed; if irrigation is available give one irrigation at flowering and pod development.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:20:0 at sowing per hectare (mostly phosphorus and potassium because chickpea fixes nitrogen).",
+    "Pests & Weeds": "Watch for pod borer and aphids. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when pods turn yellow-brown and dry (around 100–110 days). Pull plants or cut stems, then thresh to collect grains.",
+    "Storage": "Dry well to <12% moisture; store in airtight containers to prevent pest entry."
+  },
+  {
+    "Crop Name": "Pigeon Pea (Arhar)",
+    "Category": "Pulse",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Karnataka",
+      "Gujarat"
+    ],
+    "Soil": "Black or clay loam soil, pH 6.0–8.0",
+    "Climate": "Warm climate with 25–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "ICPL 87",
+      "Bahar",
+      "Maruti"
+    ],
+    "Seed Rate": "12–16 kg/ha",
+    "Irrigation": "Rainfed; if irrigated give one irrigation at flowering and pod filling.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:40:20 at planting per hectare (phosphorus emphasis).",
+    "Pests & Weeds": "Watch for pod borers and pod fly. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when pods mature and start drying (around 120–150 days). Cut plants or pick pods and sun-dry before threshing.",
+    "Storage": "Dry pods fully; thresh and store grains in airtight sacks to avoid infestation."
+  },
+  {
+    "Crop Name": "Green Gram (Mung)",
+    "Category": "Pulse",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Karnataka",
+      "Bihar"
+    ],
+    "Soil": "Light to medium loam soil, pH 6.0–7.0",
+    "Climate": "Warm climate with 25–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "Pusa Vishal",
+      "Durga",
+      "SML 668"
+    ],
+    "Seed Rate": "15–20 kg/ha",
+    "Irrigation": "Rainfed; if needed irrigate once at flowering.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 15:30:10 at sowing per hectare.",
+    "Pests & Weeds": "Watch for aphids and whitefly. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when pods become brown and dry (around 60–70 days). Pull plants or cut and dry pods before threshing.",
+    "Storage": "Dry completely and store seeds in airtight containers to prevent storage pests."
+  },
+  {
+    "Crop Name": "Black Gram (Urd)",
+    "Category": "Pulse",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "Soil": "Loamy to clay loam soil, pH 6.0–7.0",
+    "Climate": "Warm climate with 25–30°C temperature and 60–120 cm rainfall",
+    "Seeds": [
+      "PU 19",
+      "PU 31",
+      "Pant Urd 31"
+    ],
+    "Seed Rate": "20–25 kg/ha",
+    "Irrigation": "Rainfed; irrigate once at flowering if available.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:20:0 at planting per hectare.",
+    "Pests & Weeds": "Watch for aphids and powdery mildew. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when leaves drop and pods turn brown (around 70–80 days). Pull plants and dry; thresh to collect grains.",
+    "Storage": "Dry seeds to <12% moisture and store in sealed bags to protect from pests."
+  },
+  {
+    "Crop Name": "Lentil (Masoor)",
+    "Category": "Pulse",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Bihar",
+      "Haryana",
+      "Punjab"
+    ],
+    "Soil": "Well-drained loamy soil, pH 7.0–8.0",
+    "Climate": "Cool climate with 15–25°C temperature and 30–50 cm rainfall",
+    "Seeds": [
+      "Palam Masoor 1",
+      "L4076",
+      "Roja"
+    ],
+    "Seed Rate": "20–30 kg/ha",
+    "Irrigation": "Usually rainfed; irrigate once or twice (at flowering and pod fill) if dry.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:40:20 at sowing per hectare (more phosphorus because lentil fixes N).",
+    "Pests & Weeds": "Watch for aphids and jassids. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when pods are brown and seeds rattle in pods (about 100–110 days). Pull plants and sun-dry before threshing.",
+    "Storage": "Dry pods and store seeds in airtight containers to keep out moisture and pests."
+  },
+  {
+    "Crop Name": "Mustard (Rapeseed)",
+    "Category": "Oilseed",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Rajasthan",
+      "Uttar Pradesh",
+      "Punjab",
+      "Haryana",
+      "West Bengal"
+    ],
+    "Soil": "Well-drained loamy soil, pH 6.5–7.5",
+    "Climate": "Cool climate with 15–25°C temperature and 50–75 cm rainfall",
+    "Seeds": [
+      "Varuna",
+      "Pusa Bold",
+      "Jayanti"
+    ],
+    "Seed Rate": "5–6 kg/ha",
+    "Irrigation": "Rainfed; give 2–3 irrigations during winter if needed (at rosette, flowering, siliqua stages).",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:40:20 at sowing per hectare (more phosphorus).",
+    "Pests & Weeds": "Watch for aphids and painted bug. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when lower pods turn golden brown (about 120–140 days). Cut and bundle plants or use sickle; thresh after drying.",
+    "Storage": "Threshed seeds should be dried to ~8% moisture; store in clean bins or bags in a dry place."
+  },
+  {
+    "Crop Name": "Groundnut",
+    "Category": "Oilseed",
+    "Best Season": "Kharif (Monsoon) or Rabi (if irrigated)",
+    "States": [
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "Soil": "Light sandy loam to loamy soil, pH 6.0–7.0",
+    "Climate": "Warm climate with 20–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "JL 24",
+      "TMV 2",
+      "K 134"
+    ],
+    "Seed Rate": "100–125 kg/ha",
+    "Irrigation": "Requires 6–8 irrigations: after sowing, at pegging, and every 15 days until maturity if rain is insufficient.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 25:50:25 at sowing per hectare (groundnut also fixes N).",
+    "Pests & Weeds": "Watch for leaf miner and aphids. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when leaves begin to yellow (110–130 days after sowing). Uproot pods carefully; dry in sun.",
+    "Storage": "Dry pods well (or kernels) before storage; store in cool, dry place to prevent aflatoxin."
+  },
+  {
+    "Crop Name": "Soybean",
+    "Category": "Oilseed",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Gujarat"
+    ],
+    "Soil": "Well-drained loamy soil, pH 6.0–7.0",
+    "Climate": "Warm climate with 20–30°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "JS 335",
+      "MACS 450",
+      "Glycine max hybrid"
+    ],
+    "Seed Rate": "80–100 kg/ha",
+    "Irrigation": "Rainfed; give 1–2 irrigations at pod-filling if drought occurs.",
+    "Fertilizer": "Soybean requires little nitrogen; apply NPK (N:P₂O₅:K₂O) 20:40:20 at sowing per hectare.",
+    "Pests & Weeds": "Watch for pod borers and tan spot disease. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when leaves drop and pods turn brown (about 100–130 days). Cut plants and dry; thresh to get beans.",
+    "Storage": "Dry beans to <12% moisture and store in airtight containers to avoid moisture."
+  },
+  {
+    "Crop Name": "Sunflower",
+    "Category": "Oilseed",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu",
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "Soil": "Well-drained loamy soil, pH 6.0–7.0",
+    "Climate": "Moderate climate with 20–30°C temperature and 50–75 cm rainfall",
+    "Seeds": [
+      "Morden",
+      "KBSH 1",
+      "KBSH 44"
+    ],
+    "Seed Rate": "5–6 kg/ha",
+    "Irrigation": "Rabi rainfed; irrigate at flowering and grain fill if needed (1–2 times).",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 40:40:20 at planting per hectare. Top dress 40 kg N at flowering.",
+    "Pests & Weeds": "Watch for aphids and birds. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when back of sunflower heads turn yellow-brown and bracts dry (around 100–110 days). Cut and dry heads before threshing.",
+    "Storage": "Dry seeds to <8% moisture; store in sealed containers to prevent pests."
+  },
+  {
+    "Crop Name": "Sesame (Til)",
+    "Category": "Oilseed",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Rajasthan",
+      "Gujarat",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Tamil Nadu"
+    ],
+    "Soil": "Light loamy soil, pH 6.0–7.5",
+    "Climate": "Warm climate with 25–35°C temperature and 50–100 cm rainfall",
+    "Seeds": [
+      "Nirmala",
+      "TS 3",
+      "TMV 3"
+    ],
+    "Seed Rate": "4–5 kg/ha",
+    "Irrigation": "Rainfed or light irrigation at flowering in very dry areas.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 10:20:10 at sowing per hectare.",
+    "Pests & Weeds": "Watch for blister beetle and bird damage. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when 75% of capsules turn yellow (60–90 days). Pull plants and dry; thresh by beating.",
+    "Storage": "Dry seeds well and store in cool dry bins; sesame oil is prone to spoil if moisture is high."
+  },
+  {
+    "Crop Name": "Cotton",
+    "Category": "Fiber",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Gujarat",
+      "Maharashtra",
+      "Telangana",
+      "Punjab",
+      "Haryana"
+    ],
+    "Soil": "Deep, black cotton soil or loamy soil, pH 6.5–8.0",
+    "Climate": "Warm climate with 25–35°C temperature and 60–100 cm rainfall",
+    "Seeds": [
+      "Bheema",
+      "Dhara",
+      "RCH-2"
+    ],
+    "Seed Rate": "20–25 kg/ha (for planting in 1–2 plants per hill)",
+    "Irrigation": "Rainfed; give 4–5 irrigations if available (after sowing, early growth, flowering, boll development).",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 20:30:20 at planting per hectare.",
+    "Pests & Weeds": "Watch for bollworms and aphids. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Hand-pick open bolls from October–November. Make 2–3 picks one week apart.",
+    "Storage": "Store lint cotton in a dry, pest-free place; ginning follows once harvest is complete."
+  },
+  {
+    "Crop Name": "Sugarcane",
+    "Category": "Fiber",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu",
+      "Bihar"
+    ],
+    "Soil": "Loamy to clay loam, rich in organic matter, pH 6.0–7.5",
+    "Climate": "Tropical to subtropical climate with 20–32°C temperature and 75–150 cm rainfall",
+    "Seeds": [
+      "Co 86032",
+      "D 938",
+      "Co 0238"
+    ],
+    "Seed Rate": "About 10,000–12,000 kg/ha of setts (depending on sett size)",
+    "Irrigation": "Requires 10–12 irrigations (basin or furrow) at 15–20 day intervals; keep soil moist.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 125:75:75 at planting per hectare. Top dress 50 kg N at 45 and 60 days.",
+    "Pests & Weeds": "Watch for sugarcane borer and top borer. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest 10–18 months after planting when sugar content is max; cut stalks near ground level.",
+    "Storage": "Transport to mill immediately; if storing, keep stalks covered and use within 1–2 days to avoid sucrose loss."
+  },
+  {
+    "Crop Name": "Potato",
+    "Category": "Vegetable",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Uttar Pradesh",
+      "West Bengal",
+      "Bihar",
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "Soil": "Sandy loam to loamy soil, pH 5.5–7.0",
+    "Climate": "Cool climate with 15–25°C temperature and 75–125 cm rainfall",
+    "Seeds": [
+      "Kufri Bahar",
+      "Kufri Jawahar",
+      "Kufri Chandramukhi"
+    ],
+    "Seed Rate": "2,000–2,500 kg/ha of tubers (cut into 2–3 pieces each)",
+    "Irrigation": "Requires 3–4 irrigations: first after planting, then 10–15 days later, and at tuber initiation if dry.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 150:75:50 at planting per hectare (split N into 2 doses).",
+    "Pests & Weeds": "Watch for aphids and potato tuber moth. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when haulm yellows and tubers reach full size (after about 75–90 days). Lift tubers gently with a spade.",
+    "Storage": "Cure tubers for a few days to heal wounds, then store in cool (7–10°C), dark, well-ventilated place."
+  },
+  {
+    "Crop Name": "Tomato",
+    "Category": "Vegetable",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "West Bengal",
+      "Karnataka"
+    ],
+    "Soil": "Loamy or sandy loam, rich in organic matter, pH 6.0–7.0",
+    "Climate": "Warm, humid climate with 20–27°C (night ~15°C) temperature and 60–100 cm rainfall",
+    "Seeds": [
+      "Pusa Ruby",
+      "Arka Vikas",
+      "CO-3"
+    ],
+    "Seed Rate": "200–250 g/ha (direct sowing) or transplant 3,000–4,000 seedlings/ha",
+    "Irrigation": "Regular irrigation (drip or furrow) especially after transplanting; water every 5–7 days once flowering starts.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 100:60:60 at planting per hectare. Top dress 50 kg N and 50 kg K2O in two splits.",
+    "Pests & Weeds": "Watch for fruit borer and blight. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Pick fruits when they are red and firm (60–80 days from transplant). Multiple harvests possible.",
+    "Storage": "Keep fruits in cool place (10–15°C). Avoid over-ripening; sort and pack carefully to avoid bruising."
+  },
+  {
+    "Crop Name": "Onion",
+    "Category": "Vegetable",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Maharashtra",
+      "Karnataka",
+      "Gujarat",
+      "Rajasthan",
+      "Bihar"
+    ],
+    "Soil": "Deep loamy soil with good drainage, pH 6.0–7.5",
+    "Climate": "Temperate climate with 20–25°C temperature and 75–100 cm rainfall",
+    "Seeds": [
+      "N-2-4",
+      "Arka Niketan",
+      "Phule Pragati"
+    ],
+    "Seed Rate": "1.0–1.5 kg/ha (in nursery) or 2,500–3,000 bulbs/ha (for sets)",
+    "Irrigation": "Require frequent irrigation (every 2–3 weeks) until bulb initiation; reduce as bulbs mature.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 100:50:50 at sowing per hectare. Top dress 50 kg N in two splits.",
+    "Pests & Weeds": "Watch for thrips and purple blotch disease. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when tops fall over and necks dry (100–120 days). Cure bulbs in shade before storage.",
+    "Storage": "Store in ventilated sheds at 24–26°C and 65–70% humidity to avoid sprouting and rotting."
+  },
+  {
+  "Crop Name": "Chili",
+  "Category": "Vegetable",
+  "Best Season": "Rabi (Winter)",
+  "States": [
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Karnataka",
+    "Uttar Pradesh",
+    "West Bengal"
+  ],
+  "Soil": "Well-drained loamy soil, pH 6.0–6.8",
+  "Climate": "Warm climate with 20–30°C temperature and 50–100 cm rainfall",
+  "Seeds": [
+    "Byadgi",
+    "Guntur",
+    "Tejaswini"
+  ],
+  "Seed Rate": "500–600 g/ha (for transplanting)",
+  "Irrigation": "Irrigate every 7–10 days, especially during flowering and fruiting.",
+  "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 50:30:30 at planting per hectare. Top dress 30 kg N in two splits.",
+  "Pests & Weeds": "Watch for thrips, aphids, and fruit borers. Regular weeding is needed.",
+  "Harvesting": "Harvest red or green chilies when fruits mature. Pick every 3–4 days.",
+  "Storage": "Dry red chilies in sun and store in dry bags or containers. Use ventilated storage."
+}
+,{
+  "Crop Name": "Bell Pepper",
+  "Category": "Vegetable",
+  "Best Season": "Rabi (Winter)",
+  "States": [
+    "Himachal Pradesh",
+    "Karnataka",
+    "Tamil Nadu",
+    "Uttarakhand",
+    "Telangana"
+  ],
+  "Soil": "Fertile, well-drained loamy soil, pH 6.0–6.5",
+  "Climate": "Cool, mild climate with 18–25°C temperature and moderate humidity",
+  "Seeds": [
+    "California Wonder",
+    "Arka Mohini",
+    "Indra"
+  ],
+  "Seed Rate": "150–200 g/ha (for nursery transplanting)",
+  "Irrigation": "Drip or furrow irrigation every 5–7 days during flowering and fruiting.",
+  "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 75:50:50 at planting per hectare. Add 30 kg N after flowering.",
+  "Pests & Weeds": "Control aphids, mites, and powdery mildew. Weed manually or mulch.",
+  "Harvesting": "Harvest when fruits turn firm and glossy green, yellow, or red depending on variety.",
+  "Storage": "Store at 7–10°C with 85–90% humidity. Use ventilated crates for packing."
+}
+
+,
+  {
+    "Crop Name": "Jute",
+    "Category": "Fiber",
+    "Best Season": "Kharif (Monsoon)",
+    "States": [
+      "West Bengal",
+      "Assam",
+      "Odisha",
+      "Bihar",
+      "Arunachal Pradesh"
+    ],
+    "Soil": "Alluvial soil with high moisture retention, pH 6.0–7.5",
+    "Climate": "Hot and humid climate with 25–35°C temperature and 150–200 cm rainfall",
+    "Seeds": [
+      "JRO 524",
+      "JRO 128",
+      "O-9897"
+    ],
+    "Seed Rate": "5–6 kg/ha",
+    "Irrigation": "Grown in rainfed conditions; maintain moist soil if dry spell.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:30:20 at sowing per hectare.",
+    "Pests & Weeds": "Watch for hairy caterpillar. Keep field weed-free by manual weeding.",
+    "Harvesting": "Harvest at flowering stage (80–90 days after sowing). Pull plants and bundle; fiber is retted in water.",
+    "Storage": "Once fibers are extracted and dried, store in bundles in a dry place."
+  },
+  {
+    "Crop Name": "Barley",
+    "Category": "Cereal",
+    "Best Season": "Rabi (Winter)",
+    "States": [
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Punjab",
+      "Haryana",
+      "Rajasthan"
+    ],
+    "Soil": "Loamy soil, pH 6.0–7.0",
+    "Climate": "Cool climate with 10–25°C temperature and 30–75 cm rainfall",
+    "Seeds": [
+      "DWRB 97",
+      "PL 347",
+      "BH 902"
+    ],
+    "Seed Rate": "100–125 kg/ha",
+    "Irrigation": "Give 2–3 irrigations: first after sowing, then at tillering and grain filling.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 60:40:20 at sowing per hectare.",
+    "Pests & Weeds": "Watch for aphids and armyworm. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest at full maturity (grain hard, ~20% moisture). Cut and sun-dry; thresh by beating.",
+    "Storage": "Dry grains to <12% moisture; store in airtight bags or containers in a cool place."
+  },
+  {
+    "Crop Name": "Banana",
+    "Category": "Fruit",
+    "Best Season": "Tropical (year-round)",
+    "States": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Gujarat",
+      "Maharashtra",
+      "Tamil Nadu"
+    ],
+    "Soil": "Deep, fertile sandy loam to clay loam soil, pH 6.0–7.0",
+    "Climate": "Tropical climate with 26–30°C temperature and 100–150 cm rainfall",
+    "Seeds": [
+      "Grand Naine",
+      "Robusta",
+      "Basrai (for north)"
+    ],
+    "Seed Rate": "1500–2000 suckers per ha",
+    "Irrigation": "Irrigate frequently (every 2–3 days) as roots are shallow; drip or basin irrigation; maintain high humidity.",
+    "Fertilizer": "Apply NPK (N:P₂O₅:K₂O) 350:175:450 at planting per hectare. Top dress 150 kg N and 200 kg K2O later.",
+    "Pests & Weeds": "Watch for nematodes and banana weevil. Keep field weed-free by manual weeding or mulching.",
+    "Harvesting": "Harvest when fruits are plump and green (8–10 months after planting). Cut the whole bunch carefully.",
+    "Storage": "Ripen fruit in shade (15–20°C, high humidity); store at 14–16°C (unripe) or 18–20°C for market-ready fruit."
+  }
+]

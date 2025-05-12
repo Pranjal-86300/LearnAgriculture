@@ -34,11 +34,11 @@ searchInput.addEventListener('input', handleSearch);
 
 // Load JSON data
 function loadData(lang) {
-  const url = lang === 'en' ? 'data/crops.json' : 'data/cropshindi.json';
+  const url = lang === 'en' ? 'data/clean_crops_en.json' : 'data/clean_crops_hi.json';
   fetch(url)
     .then(res => res.json())
     .then(data => {
-      cropData = lang === 'en' ? data.crops : data['फसलें'];
+      cropData = data; // already an array now
       renderCropList('');
       cropDetailEl.innerHTML = '';
       searchInput.value = '';
@@ -78,10 +78,10 @@ function showCropDetail(crop) {
     let title = key;
     let value = crop[key];
 
-    if (typeof value === 'object') {
-      value = Array.isArray(value)
-        ? `<ul>${value.map(item => `<li>${formatObj(item)}</li>`).join('')}</ul>`
-        : `<pre>${JSON.stringify(value, null, 2)}</pre>`;
+    if (Array.isArray(value)) {
+      value = `<ul>${value.map(item => `<li>${formatObj(item)}</li>`).join('')}</ul>`;
+    } else if (typeof value === 'object') {
+      value = `<pre>${JSON.stringify(value, null, 2)}</pre>`;
     }
 
     detail.innerHTML += `
@@ -118,7 +118,11 @@ downloadBtn.addEventListener('click', () => {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  // Use Hindi font if needed
+  const fontSize = 11;
+  const lineHeight = 6;
+  let y = 10;
+
+  // Font setup
   if (currentLanguage === 'hi' && typeof NotoSansDevanagari !== 'undefined') {
     doc.addFileToVFS("NotoSansDevanagari.ttf", NotoSansDevanagari);
     doc.addFont("NotoSansDevanagari.ttf", "NotoSansDevanagari", "normal");
@@ -127,25 +131,40 @@ downloadBtn.addEventListener('click', () => {
     doc.setFont("helvetica");
   }
 
-  let y = 10;
   doc.setFontSize(14);
   doc.text(get(currentCrop, 'Crop Name', 'फसल का नाम'), 10, y);
   y += 10;
 
+  doc.setFontSize(fontSize);
+
   for (const key in currentCrop) {
     if (key === 'Crop Name' || key === 'फसल का नाम') continue;
+
+    const title = formatKey(key);
     let val = currentCrop[key];
-    if (typeof val === 'object') val = JSON.stringify(val, null, 2);
-    doc.setFontSize(11);
-    doc.text(`${formatKey(key)}:`, 10, y);
-    y += 5;
-    doc.setFontSize(10);
-    const lines = doc.splitTextToSize(String(val), 180);
-    lines.forEach(line => {
-      doc.text(line, 10, y);
-      y += 5;
-    });
-    y += 3;
+
+    doc.setFont(undefined, 'bold');
+    doc.text(`${title}:`, 10, y);
+    y += lineHeight;
+    doc.setFont(undefined, 'normal');
+
+    if (Array.isArray(val)) {
+      val.forEach(item => {
+        const lines = doc.splitTextToSize("• " + item, 180);
+        lines.forEach(line => {
+          doc.text(line, 15, y);
+          y += lineHeight;
+        });
+      });
+    } else {
+      const lines = doc.splitTextToSize(String(val), 180);
+      lines.forEach(line => {
+        doc.text(line, 15, y);
+        y += lineHeight;
+      });
+    }
+
+    y += 2;
     if (y > 270) {
       doc.addPage();
       y = 10;
@@ -155,6 +174,7 @@ downloadBtn.addEventListener('click', () => {
   const fileName = get(currentCrop, 'Crop Name', 'फसल का नाम') + '.pdf';
   doc.save(fileName);
 });
+
 
 // Load English by default
 currentLanguage = 'en';
