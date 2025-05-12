@@ -3,49 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Agri Info</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Learn Agriculture</title>
+  <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-    <video autoplay muted loop id="bgVideo">
-    <source src="bggrid.mp4" type="video/mp4">
-</video>
-  <!-- Header -->
-
-   
-  <header class="header">
-    <a href="https://shaikmohammed-maaz.github.io/agroValue/" class="logo-link">
-      <img src="image.png" alt="Agri Logo" class="logo-img" />
-    </a>
-    <nav class="nav">
-      <a href="https://shaikmohammed-maaz.github.io/agroValue/">Home</a>
-      <a href="#">Price</a>
-      <a href="#">Learn</a>
-      <a href="#">Chatbot</a>
+  <header>
+    <div class="logo">🌿AgroValue</div>
+    <nav id="navbar">
+      <a href="#">HOME</a>
+      <a href="#">PRICE</a>
+      <a href="#">LEARN</a>
+      <a href="#">CHATBOT</a>
     </nav>
+    <button id="hamburger">&#9776;</button>
   </header>
-  <div class="content">
-      <!-- Controls -->
-  <section class="controls">
-    <input type="text" id="searchInput" placeholder="Search crop name..." />
-    <button id="searchBtn">Search</button>
-    <button id="btnEnglish">English</button>
-    <button id="btnHindi">हिंदी</button>
-  </section>
 
-  <!-- Crop List -->
-  <section id="cropList" class="crop-list"></section>
+  <div class="main-layout">
+    <aside id="sidebar">
+      <input type="text" id="search-input" placeholder="Search crops..." />
+      <div class="button-group">
+        <button id="language-toggle">हिंदी</button>
+        <button id="search-button">Search</button>
+      </div>
+      <ul id="crop-list"></ul>
+    </aside>
 
-  <!-- Crop Detail -->
-  <section id="cropDetail" class="crop-detail"></section>
-
-  <!-- Download Button -->
-  <button id="downloadBtn" class="download-btn">Download PDF</button>
-  <script src="lib/NotoSansDevanagari.js"></script>
-  <script src="lib/jspdf.umd.min.js"></script>
-  <script src="script.js"></script>
+    <main id="content">
+      <div id="crop-details">Select a crop to view details.</div>
+    </main>
   </div>
+
+  <button id="download-pdf">Download as PDF</button>
+
+  
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
 </body>
 </html>
-
