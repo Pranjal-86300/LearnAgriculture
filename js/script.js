@@ -126,7 +126,7 @@ function downloadPDF() {
 
   // Final styling
   Object.assign(clone.style, {
-    width: isMobile ? '100%' : '700px', // 🔹 slightly narrower
+    width: isMobile ? '100%' : '600px', // 🔹 slightly narrower
     maxWidth: isMobile ? '100%' : '700px',
     padding: '20px',
     background: 'white',
@@ -135,7 +135,7 @@ function downloadPDF() {
     lineHeight: '1.6',
     boxSizing: 'border-box',
     position: 'relative',
-    margin: isMobile ? '0 auto' : '0 auto 0 120px' // 🔹 shift more right
+    margin: isMobile ? '0 auto' : '0 auto 0 200px' // 🔹 shift more right
   });
 
   const wrapper = document.createElement('div');
