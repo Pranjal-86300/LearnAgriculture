@@ -166,3 +166,6 @@ document.getElementById('hamburger').addEventListener('click', () => {
 
 loadCrops();
 showCropDetails(null);
+setTimeout(() => {
+  document.querySelector('.main-layout').classList.add('animate-start');
+}, 50);

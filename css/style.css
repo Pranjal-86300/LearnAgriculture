@@ -290,3 +290,40 @@ main#content {
     display: block !important;
   }
 }
+/* Hide initially */
+.main-layout.animate-ready #sidebar,
+.main-layout.animate-ready #content {
+  opacity: 0;
+}
+
+/* Animate sidebar from left */
+.main-layout.animate-start #sidebar {
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animate content from bottom */
+.main-layout.animate-start #content {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
