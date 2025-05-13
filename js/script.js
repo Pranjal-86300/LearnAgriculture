@@ -121,13 +121,13 @@ function downloadPDF() {
   const original = document.getElementById('crop-details');
   const clone = original.cloneNode(true);
 
-  // Detect screen size
+  // Screen detection
   const isMobile = window.innerWidth <= 768;
 
-  // Apply styles for rendering
+  // Final styling
   Object.assign(clone.style, {
-    width: isMobile ? '100%' : '800px',
-    maxWidth: isMobile ? '100%' : '800px',
+    width: isMobile ? '100%' : '700px', // 🔹 slightly narrower
+    maxWidth: isMobile ? '100%' : '700px',
     padding: '20px',
     background: 'white',
     color: 'black',
@@ -135,10 +135,9 @@ function downloadPDF() {
     lineHeight: '1.6',
     boxSizing: 'border-box',
     position: 'relative',
-    margin: isMobile ? '0 auto' : '0 auto 0 100px' // shift right only on desktop
+    margin: isMobile ? '0 auto' : '0 auto 0 120px' // 🔹 shift more right
   });
 
-  // Offscreen container
   const wrapper = document.createElement('div');
   wrapper.style.position = 'fixed';
   wrapper.style.top = '-9999px';
