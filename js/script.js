@@ -118,17 +118,34 @@ function downloadPDF() {
   const fileName = (selectedCrop?.[langMap[currentLang].nameKey] || "crop-details")
     .replace(/[^a-zA-Z0-9\u0900-\u097F_-]/g, "_") + ".pdf";
 
-  const element = document.getElementById('crop-details');
+  const original = document.getElementById('crop-details');
+  const clone = original.cloneNode(true);
+  clone.style.width = '800px';
+  clone.style.maxWidth = '800px';
+  clone.style.padding = '20px';
+
+  // Place it off-screen temporarily
+  const container = document.createElement('div');
+  container.style.position = 'fixed';
+  container.style.top = '-10000px';
+  container.appendChild(clone);
+  document.body.appendChild(container);
 
   const opt = {
-    margin:       0.5,
-    filename:     fileName,
-    image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 2 },
-    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    margin: 0.5,
+    filename: fileName,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: {
+      scale: 2,
+      useCORS: true,
+      windowWidth: 1024, // force desktop-like rendering
+    },
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
   };
 
-  html2pdf().from(element).set(opt).save();
+  html2pdf().from(clone).set(opt).save().then(() => {
+    document.body.removeChild(container); // clean up
+  });
 }
 
 // Dropdown crop toggle (mobile)
