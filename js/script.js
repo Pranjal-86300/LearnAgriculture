@@ -119,35 +119,56 @@ function downloadPDF() {
     .replace(/[^a-zA-Z0-9\u0900-\u097F_-]/g, "_") + ".pdf";
 
   const original = document.getElementById('crop-details');
-  const clone = original.cloneNode(true);
-  clone.style.width = '800px';
-  clone.style.maxWidth = '800px';
-  clone.style.padding = '20px';
 
-  // Place it off-screen temporarily
+  // Clone the content safely
+  const clone = original.cloneNode(true);
+
+  // Force proper layout for PDF rendering
+  Object.assign(clone.style, {
+    width: '800px',
+    maxWidth: '800px',
+    margin: '0',
+    padding: '20px',
+    background: 'white',
+    color: 'black',
+    position: 'relative',
+    left: '0',
+    fontSize: '12px',
+    lineHeight: '1.6'
+  });
+
+  // Wrap in container offscreen
   const container = document.createElement('div');
   container.style.position = 'fixed';
-  container.style.top = '-10000px';
+  container.style.top = '-9999px';
+  container.style.left = '0';
+  container.style.zIndex = '-1';
   container.appendChild(clone);
   document.body.appendChild(container);
 
+  // Create PDF from clone
   const opt = {
-    margin: 0.5,
+    margin: 0,
     filename: fileName,
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: {
       scale: 2,
       useCORS: true,
-      windowWidth: 1024, // force desktop-like rendering
+      scrollX: 0,
+      scrollY: 0,
+      windowWidth: 1024
     },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+    jsPDF: {
+      unit: 'px',
+      format: 'a4',
+      orientation: 'portrait'
+    }
   };
 
   html2pdf().from(clone).set(opt).save().then(() => {
-    document.body.removeChild(container); // clean up
+    document.body.removeChild(container); // cleanup
   });
 }
-
 // Dropdown crop toggle (mobile)
 document.getElementById('toggle-crops').addEventListener('click', () => {
   const cropList = document.getElementById('crop-list');
