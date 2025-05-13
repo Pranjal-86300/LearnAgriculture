@@ -121,28 +121,29 @@ function downloadPDF() {
   const original = document.getElementById('crop-details');
   const clone = original.cloneNode(true);
 
-  // Reset layout and enforce full width
+  // Override styles to prevent centering and shifting
   Object.assign(clone.style, {
-    width: '1000px', // match jsPDF width in px for A4
-    maxWidth: '1000px',
-    margin: '0 auto',
-    padding: '40px',
+    width: '794px', // A4 width in px at 96dpi
+    maxWidth: 'unset',
+    margin: '0',
+    padding: '20px',
     background: 'white',
     color: 'black',
     fontSize: '13px',
     lineHeight: '1.6',
     boxSizing: 'border-box',
-    position: 'relative'
+    position: 'relative',
+    left: '0'
   });
 
-  const container = document.createElement('div');
-  container.style.position = 'fixed';
-  container.style.top = '-9999px';
-  container.style.left = '0';
-  container.style.zIndex = '-1';
-  container.style.width = '1000px';
-  container.appendChild(clone);
-  document.body.appendChild(container);
+  const wrapper = document.createElement('div');
+  wrapper.style.position = 'fixed';
+  wrapper.style.top = '-9999px';
+  wrapper.style.left = '0';
+  wrapper.style.width = '794px'; // match exact width
+  wrapper.style.background = 'white';
+  wrapper.appendChild(clone);
+  document.body.appendChild(wrapper);
 
   const opt = {
     margin: 0,
@@ -153,17 +154,17 @@ function downloadPDF() {
       useCORS: true,
       scrollX: 0,
       scrollY: 0,
-      windowWidth: 1000
+      windowWidth: 794
     },
     jsPDF: {
       unit: 'px',
-      format: [1000, 1414], // A4 in px at 72dpi scale
+      format: [794, 1123], // A4: 794x1123 px @96dpi
       orientation: 'portrait'
     }
   };
 
   html2pdf().from(clone).set(opt).save().then(() => {
-    document.body.removeChild(container);
+    document.body.removeChild(wrapper);
   });
 }
 // Dropdown crop toggle (mobile)
