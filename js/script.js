@@ -115,37 +115,46 @@ function downloadPDF() {
     return;
   }
 
+  if (window.innerWidth <= 768) {
+    downloadPDFMobile();
+  } else {
+    downloadPDFDesktop();
+  }
+}
+function downloadPDFMobile() {
+  if (!selectedCrop) {
+    alert("Select a crop first!");
+    return;
+  }
+
   const fileName = (selectedCrop?.[langMap[currentLang].nameKey] || "crop-details")
     .replace(/[^a-zA-Z0-9\u0900-\u097F_-]/g, "_") + ".pdf";
 
   const original = document.getElementById('crop-details');
   const clone = original.cloneNode(true);
 
-  // Screen detection
-  const isMobile = window.innerWidth <= 768;
-
-  // Final styling
+  // Reset layout and enforce full width
   Object.assign(clone.style, {
-    width: isMobile ? '100%' : '600px', // 🔹 slightly narrower
-    maxWidth: isMobile ? '100%' : '700px',
-    padding: '20px',
+    width: '1000px', // match jsPDF width in px for A4
+    maxWidth: '1000px',
+    margin: '0 auto',
+    padding: '40px',
     background: 'white',
     color: 'black',
     fontSize: '13px',
     lineHeight: '1.6',
     boxSizing: 'border-box',
-    position: 'relative',
-    margin: isMobile ? '0 auto' : '0 auto 0 200px' // 🔹 shift more right
+    position: 'relative'
   });
 
-  const wrapper = document.createElement('div');
-  wrapper.style.position = 'fixed';
-  wrapper.style.top = '-9999px';
-  wrapper.style.left = '0';
-  wrapper.style.width = isMobile ? '100%' : '1000px';
-  wrapper.style.background = 'white';
-  wrapper.appendChild(clone);
-  document.body.appendChild(wrapper);
+  const container = document.createElement('div');
+  container.style.position = 'fixed';
+  container.style.top = '-9999px';
+  container.style.left = '0';
+  container.style.zIndex = '-1';
+  container.style.width = '1000px';
+  container.appendChild(clone);
+  document.body.appendChild(container);
 
   const opt = {
     margin: 0,
@@ -156,19 +165,44 @@ function downloadPDF() {
       useCORS: true,
       scrollX: 0,
       scrollY: 0,
-      windowWidth: isMobile ? 360 : 1000
+      windowWidth: 1000
     },
     jsPDF: {
       unit: 'px',
-      format: 'a4',
+      format: [1000, 1414], // A4 in px at 72dpi scale
       orientation: 'portrait'
     }
   };
 
   html2pdf().from(clone).set(opt).save().then(() => {
-    document.body.removeChild(wrapper);
+    document.body.removeChild(container);
   });
 }
+
+
+function downloadPDFDesktop() {
+  if (!selectedCrop) {
+    alert("Select a crop first!");
+    return;
+  }
+
+  const fileName = (selectedCrop?.[langMap[currentLang].nameKey] || "crop-details")
+    .replace(/[^a-zA-Z0-9\u0900-\u097F_-]/g, "_") + ".pdf";
+
+  const element = document.getElementById('crop-details');
+
+  const opt = {
+    margin:       0.5,
+    filename:     fileName,
+    image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 2 },
+    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+  };
+
+  html2pdf().from(element).set(opt).save();
+}
+
+
 // Dropdown crop toggle (mobile)
 document.getElementById('toggle-crops').addEventListener('click', () => {
   const cropList = document.getElementById('crop-list');
