@@ -35,7 +35,35 @@ function renderCropList(data) {
 
 function showCropDetails(crop) {
   const details = document.getElementById('crop-details');
+  details.classList.remove('placeholder');
   details.innerHTML = '';
+
+  if (!crop) {
+    details.classList.add('placeholder');
+    details.innerHTML = `
+      <div class="instruction-card">
+        <div class="half left">
+          <h3>How to Use</h3>
+          <ul>
+            <li>Select the language using the toggle above.</li>
+            <li>Search or scroll to select a crop from the list.</li>
+            <li>View its detailed information on this screen.</li>
+            <li>Click "Download as PDF" to save the crop info offline.</li>
+          </ul>
+        </div>
+        <div class="half right">
+          <h3>कैसे उपयोग करें</h3>
+          <ul>
+            <li>ऊपर दिए गए बटन से भाषा चुनें।</li>
+            <li>फसल सूची में से एक फसल चुनें या खोजें।</li>
+            <li>यहाँ फसल की जानकारी दिखाई जाएगी।</li>
+            <li>PDF डाउनलोड बटन दबाकर जानकारी ऑफलाइन सेव करें।</li>
+          </ul>
+        </div>
+      </div>
+    `;
+    return;
+  }
 
   const title = document.createElement('h1');
   title.style.color = '#2e7d32';
@@ -103,14 +131,38 @@ function downloadPDF() {
   html2pdf().from(element).set(opt).save();
 }
 
+// Dropdown crop toggle (mobile)
+document.getElementById('toggle-crops').addEventListener('click', () => {
+  const cropList = document.getElementById('crop-list');
+  const btn = document.getElementById('toggle-crops');
+  cropList.classList.toggle('open');
+  btn.textContent = cropList.classList.contains('open') ? '📋 Hide Crops ▲' : '📋 Show Crops ▼';
+});
 
-// Event listeners
-document.getElementById('search-input').addEventListener('input', filterCrops);
+// Search input
+document.getElementById('search-input').addEventListener('input', () => {
+  filterCrops();
+  const cropList = document.getElementById('crop-list');
+  const toggleBtn = document.getElementById('toggle-crops');
+  if (window.innerWidth <= 768 && !cropList.classList.contains('open')) {
+    cropList.classList.add('open');
+    toggleBtn.textContent = '📋 Hide Crops ▲';
+  }
+});
+
 document.getElementById('language-toggle').addEventListener('click', toggleLanguage);
 document.getElementById('search-button').addEventListener('click', filterCrops);
 document.getElementById('download-pdf').addEventListener('click', downloadPDF);
+
 document.getElementById('hamburger').addEventListener('click', () => {
-  document.getElementById('navbar').classList.toggle('open');
+  const navbar = document.getElementById('navbar');
+  const layout = document.querySelector('.main-layout');
+  navbar.classList.toggle('open');
+
+  if (window.innerWidth <= 768) {
+    layout.classList.toggle('nav-open');
+  }
 });
 
 loadCrops();
+showCropDetails(null);
