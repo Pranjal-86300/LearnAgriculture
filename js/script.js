@@ -119,34 +119,31 @@ function downloadPDF() {
     .replace(/[^a-zA-Z0-9\u0900-\u097F_-]/g, "_") + ".pdf";
 
   const original = document.getElementById('crop-details');
-
-  // Clone the content safely
   const clone = original.cloneNode(true);
 
-  // Force proper layout for PDF rendering
+  // Reset layout and enforce full width
   Object.assign(clone.style, {
-    width: '800px',
-    maxWidth: '800px',
-    margin: '0',
-    padding: '20px',
+    width: '1000px', // match jsPDF width in px for A4
+    maxWidth: '1000px',
+    margin: '0 auto',
+    padding: '40px',
     background: 'white',
     color: 'black',
-    position: 'relative',
-    left: '0',
-    fontSize: '12px',
-    lineHeight: '1.6'
+    fontSize: '13px',
+    lineHeight: '1.6',
+    boxSizing: 'border-box',
+    position: 'relative'
   });
 
-  // Wrap in container offscreen
   const container = document.createElement('div');
   container.style.position = 'fixed';
   container.style.top = '-9999px';
   container.style.left = '0';
   container.style.zIndex = '-1';
+  container.style.width = '1000px';
   container.appendChild(clone);
   document.body.appendChild(container);
 
-  // Create PDF from clone
   const opt = {
     margin: 0,
     filename: fileName,
@@ -156,17 +153,17 @@ function downloadPDF() {
       useCORS: true,
       scrollX: 0,
       scrollY: 0,
-      windowWidth: 1024
+      windowWidth: 1000
     },
     jsPDF: {
       unit: 'px',
-      format: 'a4',
+      format: [1000, 1414], // A4 in px at 72dpi scale
       orientation: 'portrait'
     }
   };
 
   html2pdf().from(clone).set(opt).save().then(() => {
-    document.body.removeChild(container); // cleanup
+    document.body.removeChild(container);
   });
 }
 // Dropdown crop toggle (mobile)
